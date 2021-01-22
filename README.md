@@ -1,4 +1,4 @@
-# mandalorian
+# mandalorianfan.com
 
 ![](./public/HomePage.jpg)
 
@@ -23,6 +23,15 @@ The [util](./util) folder has some helper functions that I used to pull data fro
 The site is hosted with Firebase and can be reached at [mnandalorianfan.com](https://www.mandalorianfan.com).
 
 The site's deployment uses [GitHub Actions](https://github.com/features/actions).
+
+## Environment Variables
+
+This project makes use of two environment variables for deployment.
+
+- `MANDO_MESSAGE`
+- `MANDO_GA`
+
+They should not impact your ability to run the app locally, but I just note them here if you see a build error.
 
 ## Contributing
 
