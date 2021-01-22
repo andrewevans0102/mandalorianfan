@@ -52,3 +52,5 @@ Additional tasks that I'm planning to do:
 - add additional characters and vehicles
 - refactor some of the pages to be [React higher order components](https://reactjs.org/docs/higher-order-components.html)
 - improve performance with automatically optimzing images
+
+For anything else, feel free to contact me at [andrewevans0102](https://www.twitter.com/andrewevans0102)
