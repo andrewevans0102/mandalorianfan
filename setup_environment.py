@@ -10,7 +10,7 @@ trackingID = os.environ["MANDO_GA"]
 successFile = "util/success.js"
 with fileinput.FileInput(successFile, inplace=True) as file:
     for line in file:
-        print(line.replace("POST_ADDRESS", messageEndpoint), end='')
+        print(line.replace("MANDO_MESSAGE", messageEndpoint), end='')
 
 appFile="src/helper/googleAnalytics.js"
 with fileinput.FileInput(appFile, inplace=True) as file:
