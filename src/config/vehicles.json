@@ -1,0 +1,30 @@
+[
+	{
+		"name": "Razor Crest",
+		"description": "The Razor Crest was a gunship used by the Mandalorian bounty hunter Din Djarin. Prior to the rise of the Galactic Empire, it served as a military patrol craft. The vessel eventually fell into the hands of Din Djarin, who lived and worked from it as he hunted bounties in the Outer Rim Territories in the early years of the New Republic. He used it throughout the search for the child named Grogu, and continued to use it on the quest to find Grogu's species in 9 ABY. The Razor Crest was destroyed by a single shot fired by Gideon's light cruiser during a skirmish on Tython.",
+		"image": "/vehicles/Razor Crest.jpg",
+		"image_alt": "Razor Crest",
+		"link": "https://starwars.fandom.com/wiki/Razor_Crest"
+	},
+	{
+		"name": "Slave 1",
+		"description": "Slave I was a modified Firespray-31-class patrol and attack craft used by the infamous Mandalorian bounty hunter Jango Fett before the Clone Wars[5] and later his unaltered cloned son Boba Fett just prior to the Fall of the Republic and during the reign of the Galactic Empire.[13] The ship in its original form was produced by a subsidiary company of Kuat Drive Yards, based on the planet Kuat.",
+		"image": "/vehicles/Slave 1.jpg",
+		"image_alt": "Slave 1",
+		"link": "https://starwars.fandom.com/wiki/Slave_I"
+	},
+	{
+		"name": "Outland TIE fighter",
+		"description": "The Outland TIE fighter was a class of TIE line starfighter that was designed as the Galactic Empire was losing its territory. Otherwise congruent to the appearance of a standard TIE/ln space superiority starfighter, the Outland TIE fighter's wings folded when landing on a levelled surface, allowing for ease of access to the cockpit and creating a distinctive form not dissimilar to that of an X-wing starfighter with its S-foils in a open position. In addition, landing gear was concealed inside the bottom the of cockpit allowing for ease of use and stability. The personal starfighter of Moff Gideon, at least one Outland fighter, flown by the Moff himself, was used by his Imperial remnant during the New Republic Era, though the Mandalorian bounty hunter Din Djarin took down the starfighter.",
+		"image": "/vehicles/TIE_FIGHTER.jpg",
+		"image_alt": "Outland TIE Fighter",
+		"link": "https://starwars.fandom.com/wiki/Outland_TIE_fighter"
+	},
+	{
+		"name": "Gideon's Light Cruiser",
+		"description": "Gideon's light cruiser[3] was a Class 546 Cruiser[1] under the command of Moff Gideon in the years after the Battle of Endor. It was similar in appearance[3] to the Arquitens-class command cruiser.[5] During the rescue of his foundling, Grogu, from Gideon, the Mandalorian Din Djarin and his allies seized the ship and captured the moff. The light cruiser also contained a platoon of third-generation dark troopers, though they were destroyed by Djarin and Jedi Master Luke Skywalker.",
+		"image": "/vehicles/GIDEON_CRUISER.jpg",
+		"image_alt": "Gideon's Light Cruiser",
+		"link": "https://starwars.fandom.com/wiki/Gideon%27s_light_cruiser"
+	}
+]

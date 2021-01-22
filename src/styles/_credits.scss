@@ -1,0 +1,37 @@
+@import "globals";
+
+.credits {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 800px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+	p {
+		font-size: 20px;
+		white-space: pre;
+		font-family: "Righteous", cursive;
+		white-space: pre-wrap; /* css-3 */
+		white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+		white-space: -pre-wrap; /* Opera 4-6 */
+		white-space: -o-pre-wrap; /* Opera 7 */
+		word-wrap: break-word; /* Internet Explorer 5.5+ */
+		// width: 30px;
+
+		@media (min-width: map.get($mobile, "min-width")) and (max-width: map.get($mobile, "max-width")) {
+			margin: 20px;
+		}
+	}
+
+	a {
+		white-space: pre-wrap; /* css-3 */
+		white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+		white-space: -pre-wrap; /* Opera 4-6 */
+		white-space: -o-pre-wrap; /* Opera 7 */
+		word-wrap: break-word; /* Internet Explorer 5.5+ */
+		width: 30px;
+	}
+	// }
+}

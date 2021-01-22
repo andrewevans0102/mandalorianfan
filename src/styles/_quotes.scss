@@ -1,0 +1,25 @@
+@import "globals";
+
+.quotes {
+	margin: 0 auto;
+	max-width: 800px;
+
+	@media (min-width: map.get($tablet, "min-width")) and (max-width: map.get($tablet, "max-width")) {
+		width: 80%;
+	}
+
+	ul {
+		font-size: 20px;
+
+		li {
+			margin: 20px;
+			text-transform: uppercase;
+			font-family: "Bangers", cursive;
+			font-size: 25px;
+		}
+
+		li:nth-of-type(odd) {
+			color: #d5945e;
+		}
+	}
+}

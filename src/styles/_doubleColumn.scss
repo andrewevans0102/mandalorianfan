@@ -1,0 +1,80 @@
+@import "globals";
+
+.doubleColumn {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 1200px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+	h1 {
+		text-align: center;
+	}
+
+	&__title {
+		display: flex;
+		margin: 20px;
+		border: solid;
+
+		@media (min-width: map.get($mobile, "min-width")) and (max-width: map.get($mobile, "max-width")) {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		@media (min-width: map.get($tablet, "min-width")) and (max-width: map.get($tablet, "max-width")) {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			padding: 20px;
+		}
+	}
+
+	&__information {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+
+	&__name {
+		font-size: 40px;
+		font-family: "Righteous", cursive;
+		white-space: pre;
+		overflow-wrap: break-word;
+		white-space: pre-wrap;
+	}
+
+	&__description {
+		display: flex;
+		text-align: left;
+		margin: 20px;
+		font-family: "Righteous", cursive;
+	}
+
+	&__large-image {
+		height: 100%;
+		width: 320px;
+		padding: 20px;
+		vertical-align: middle;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+	}
+
+	&__normal-image {
+		height: auto;
+		width: 320px;
+		padding: 20px;
+		border-right: solid;
+		box-shadow: 0 0 8px 8px white inset;
+	}
+
+	a {
+		font-family: "Righteous", cursive;
+	}
+}

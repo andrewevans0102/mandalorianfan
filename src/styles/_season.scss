@@ -1,0 +1,101 @@
+@import "globals";
+
+.season {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 800px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+	h2 {
+		text-align: center;
+		font-family: "Righteous", cursive;
+		margin: 20px;
+	}
+
+	&__value {
+		margin: 0 auto;
+		max-width: 800px;
+		padding: 10px;
+		text-align: left;
+		font-family: "Righteous", cursive;
+
+		@media (min-width: map.get($mobile, "min-width")) and (max-width: map.get($mobile, "max-width")) {
+			margin: 5px;
+		}
+	}
+
+	&__icons {
+		vertical-align: middle;
+		margin: 10px auto;
+		font-family: "Righteous", cursive;
+		font-size: 20px;
+		background-color: black;
+		width: 200px;
+		&--collapse {
+			color: #d5945e;
+			background-color: lightblue;
+			border: solid lightblue;
+			border-radius: 40px;
+			width: 200px;
+		}
+		&--expand {
+			color: #d5945e;
+			border: solid #d5945e;
+			border-radius: 40px;
+			width: 200px;
+			background-color: white;
+		}
+		&--arrow {
+			font-size: 40px;
+			vertical-align: middle;
+		}
+	}
+
+	article {
+		border: solid lightblue;
+		margin: 10px;
+		border-radius: 40px;
+		padding-bottom: 10px;
+
+		@media (min-width: map.get($mobile, "min-width")) and (max-width: map.get($mobile, "max-width")) {
+			padding-top: 0;
+			margin-top: 0;
+		}
+
+		@media (min-width: map.get($tablet, "min-width")) and (max-width: map.get($tablet, "max-width")) {
+			width: 80%;
+		}
+	}
+
+	&__plot {
+		width: 100%;
+		padding: 10px;
+		white-space: pre-line;
+		text-align: left;
+		font-family: "Righteous", cursive;
+	}
+
+	&__title {
+		color: pink;
+	}
+
+	a {
+		padding-bottom: 20px;
+		font-family: "Righteous", cursive;
+	}
+
+	@media (min-width: map.get($mobile, "min-width")) and (max-width: map.get($mobile, "max-width")) {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		width: 300px;
+	}
+
+	@media (max-height: map.get($mobile, "max-height")) {
+		width: 80%;
+	}
+}

@@ -1,0 +1,70 @@
+@use "sass:map";
+@import "header";
+@import "home";
+@import "season";
+@import "quotes";
+@import "doubleColumn";
+@import "credits";
+@import "globals";
+
+h1 {
+	font-size: 40px;
+	margin: 0;
+	font-family: "Righteous", cursive;
+	text-align: center;
+	width: 90%;
+}
+
+html {
+	background-color: black;
+	color: lightblue;
+}
+
+main {
+	background-color: black;
+	color: lightblue;
+}
+
+a {
+	color: #d5945d;
+}
+
+.navbar.navbar-default {
+	background-color: black;
+}
+
+#mandalorianToggler {
+	background-color: black;
+	color: lightblue;
+}
+
+nav {
+	margin: 0 auto;
+	background-color: black;
+	color: lightblue;
+	border-bottom: solid lightblue;
+	margin-bottom: 20px;
+}
+
+header {
+	background-color: black;
+	color: lightblue;
+	width: 100%;
+	background-color: pink;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+	background-color: black !important;
+	color: lightblue !important;
+}
+
+.navbar-nav {
+	float: none;
+	margin: 0 auto;
+	display: block;
+}
+
+.navbar-nav > li {
+	display: inline-block;
+	float: none;
+}

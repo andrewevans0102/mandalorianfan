@@ -1,0 +1,51 @@
+@import "globals";
+
+.header {
+	background-color: black;
+	color: lightblue;
+	font-family: "Righteous", cursive;
+	font-size: 40px;
+	width: 100%;
+
+	a {
+		color: lightblue;
+	}
+
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	li {
+		margin-left: 40px;
+
+		@media (min-width: map.get($mobile, "min-width")) and (max-width: map.get($mobile, "max-width")) {
+			width: 90%;
+			font-size: 20px;
+		}
+	}
+
+	@media (min-width: map.get($laptop, "min-width")) and (max-width: map.get($laptop, "max-width")) {
+		font-size: 20px;
+	}
+}
+
+#mandalorianToggler {
+	background-color: black;
+	color: lightblue;
+}
+
+nav {
+	background-color: black;
+	color: lightblue;
+}
+
+.navbar .navbar-nav .navbar-dark {
+	background-color: black;
+	color: lightblue;
+
+	@media (min-width: map.get($mobile, "min-width")) and (max-width: map.get($laptop, "max-width")) {
+		width: 90%;
+		margin: 0;
+	}
+}
