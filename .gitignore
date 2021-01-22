@@ -26,6 +26,6 @@ yarn-error.log*
 
 .firebase/
 
-/util/success.js
+util/success.js
 
-/src/helper/googleAnalytics.js
+src/helper/googleAnalytics.js
