@@ -26,12 +26,21 @@ The site's deployment uses [GitHub Actions](https://github.com/features/actions)
 
 ## Environment Variables
 
-This project makes use of two environment variables for deployment.
+This project's deployment makes use of the following environment variables
 
 - `MANDO_MESSAGE`
 - `MANDO_GA`
 
-They should not impact your ability to run the app locally, but I just note them here if you see a build error.
+Not having them should not impact your ability to run the app locally. I just wanted to note it here if you see a build error.
+
+## Running Locally
+
+To run this project locally:
+
+1. clone the project repo
+2. have node installed (12.0 or higher recommended)
+3. do an `npm i` at the project root
+4. do `npm run start` and it should open on `http://localhost:3000/`
 
 ## Contributing
 
