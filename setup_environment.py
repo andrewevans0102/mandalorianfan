@@ -15,6 +15,6 @@ with fileinput.FileInput(successFile, inplace=True) as file:
 appFile="src/helper/googleAnalytics.js"
 with fileinput.FileInput(appFile, inplace=True) as file:
     for line in file:
-        print(line.replace("TRACKING_ID", trackingID), end='')
+        print(line.replace("MANDO_GA", trackingID), end='')
 
 print("setup environment has finished")
