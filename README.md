@@ -2,7 +2,7 @@
 
 ![](./public/HomePage.jpg)
 
-This project is the webiste for [mandalorianfan.com](https://www.mandalorianfan.com). It is open source with the MIT license.
+This project is the website for [mandalorianfan.com](https://www.mandalorianfan.com). It is open source with the MIT license.
 
 The image on the home page was copied from [https://starwars.fandom.com/wiki/The_Mandalorian](https://starwars.fandom.com/wiki/The_Mandalorian).
 
